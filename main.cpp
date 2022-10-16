@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 class Fraction
@@ -16,7 +16,7 @@ public:
 		if (den != 0)
 			denominator = den;
 		else
-			cout << "Çíàìåíàòåëü íå ìîæåò áûòü ðàâåí íóëþ!" << endl;
+			cout << "Ð—Ð½Ð°Ð¼ÐµÐ½Ð°Ñ‚ÐµÐ»ÑŒ Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ Ñ€Ð°Ð²ÐµÐ½ Ð½ÑƒÐ»ÑŽ!" << endl;
 	}
 
 	int get_numerator()
